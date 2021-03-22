@@ -1,22 +1,22 @@
 {
-	"name":				"Neko7sora Profile",
-	"short_name":		"Neko7sora",
-	"description":		"Neko7soraのプロフィールサイト",
-	"start_url":		"/?pwa=true",
-	"display":			"standalone",
-	"orientation":		"any",
-	"background_color":	"#2c2f33",
-	"theme_color":		"#2c2f33",
-    "dir": 		     	"ltr",
-    "lang":         	"ja-jp",
+	"name": "Neko7sora Profile",
+	"short_name": "Neko7sora",
+	"description": "Neko7soraのプロフィールサイト",
+	"start_url": "/?pwa=true",
+	"display": "standalone",
+	"orientation": "any",
+	"background_color": "#2c2f33",
+	"theme_color": "#2c2f33",
+	"dir": "ltr",
+	"lang": "ja-jp",
 	"icons": [
 		{
-			"src": "/favicon/icon-192x192.png",
+			"src": "/favicon/icon-192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "/favicon/icon-512x512.png",
+			"src": "/favicon/icon-512.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}
