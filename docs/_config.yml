@@ -1,10 +1,9 @@
-theme: jekyll-theme-cayman
-title: "Neko7sora"
-description: "Neko7sora"
+theme: minima
+title: "Neko7soraのプロフィール"
+description: "「ねこなそら」のプロフィールサイトです。"
 timezone: Japan
 lang : ja
 url: "https://neko7sora.github.io" # the base hostname & protocol for your site
-
 
 collections:
   pages:
@@ -44,14 +43,41 @@ defaults:
       posttype_name: "ページ"
       pages: true
 
+  - scope:
+      path: "_favicon"
+      type: favicon
+    values:
+      posttype: favicon
+      posttype_url: /
+      posttype_name: "favicon"
+      pages: false
 
 webrick:
   headers:
     Neko7sora-v: v1
 
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# https://pages.github.com/versions/
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-avatar
+  - jekyll-gist
+  - jekyll-relative-links
+#  - jekyll-mentions
+
+#jekyll-mentions:
+#  base_url: https://twitter.com
 
 exclude:
 - Gemfile
 - CNAME
 - readme.md
 - README.md
+- "*/readme.md"
+- "*/README.md"
