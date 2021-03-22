@@ -43,12 +43,6 @@ defaults:
       posttype_name: "ページ"
       pages: true
 
-  - scope:
-      path: "_favicon"
-    values:
-      image: true
-      permalink: "/"
-
 webrick:
   headers:
     Neko7sora-v: v1
