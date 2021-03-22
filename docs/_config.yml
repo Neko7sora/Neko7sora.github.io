@@ -45,9 +45,9 @@ defaults:
 
   - scope:
       path: "_favicon"
-      type: favicon
     values:
       image: true
+      permalink: "/"
 
 webrick:
   headers:
