@@ -47,11 +47,7 @@ defaults:
       path: "_favicon"
       type: favicon
     values:
-      layout: "null"
-      posttype: page
-      posttype_url: /
-      posttype_name: "favicon"
-      pages: true
+      image: true
 
 webrick:
   headers:
