@@ -1,0 +1,57 @@
+theme: jekyll-theme-cayman
+title: "Neko7sora"
+description: "Neko7sora"
+timezone: Japan
+lang : ja
+url: "https://neko7sora.github.io" # the base hostname & protocol for your site
+
+
+collections:
+  pages:
+    output: true
+  posts:
+    output: true
+defaults:
+  - scope:
+      path: _posts/news
+      type: posts
+    values:
+      layout: post
+      posttype: news
+      posttype_url: post/news
+      posttype_name: "お知らせ"
+      news: true
+      permalink: "/post/news/:year/:month/:day/:title_id/"
+
+  - scope:
+      path: "_posts/blog"
+      type: "posts"
+    values:
+      layout: post
+      posttype: blog
+      posttype_url: post/blogs
+      posttype_name: "記事"
+      blogs: true
+      permalink: "/post/blog/:year/:month/:day/:title_id/"
+
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: default
+      posttype: page
+      posttype_url: /pages
+      posttype_name: "ページ"
+      pages: true
+
+
+webrick:
+  headers:
+    Neko7sora-v: v1
+
+
+exclude:
+- Gemfile
+- CNAME
+- readme.md
+- README.md
