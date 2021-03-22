@@ -5,10 +5,10 @@
 <title>{% if page.title %}{{page.title}} | {% endif %}{{ site.title }}</title>
 {% include favicons.html %}
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="{{ site.url | append: site.github.build_revision | relative_url }}" type="text/css"/>
+<link rel="stylesheet" href="{{site.url}}{{ '/assets/css/all.css' | append: site.github.build_revision | relative_url }}" type="text/css"/>
 <meta name="keywords" content="Neko7sora,ねこなそら,Profile,プロフィール">
 <meta name="description" content="{{ site.description }}">
-<meta name="author" content="Nko7sora">
+<meta name="author" content="Neko7sora">
 <link rel="canonical" href="{{site.url}}{{ page.url | replace:'index.html','' }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{% if page.title %}{{page.title}} | {% endif %}{{ site.title }}">
