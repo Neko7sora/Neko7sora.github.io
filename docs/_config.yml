@@ -4,6 +4,7 @@ description: "「ねこなそら」のプロフィールサイトです。"
 timezone: Japan
 lang : ja
 url: "https://neko7sora.github.io" # the base hostname & protocol for your site
+style: dark
 
 collections:
   pages:
@@ -42,6 +43,18 @@ defaults:
       posttype_url: /pages
       posttype_name: "ページ"
       pages: true
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    # - repo-name
 
 webrick:
   headers:

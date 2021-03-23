@@ -1,3 +1,9 @@
+{% if site.style == 'dark' %}
+  {% assign icon_color = "#ffffff" %}
+{% else %}
+  {% assign icon_color = "#24292e" %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: " ja" }}">
 
