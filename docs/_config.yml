@@ -44,18 +44,6 @@ defaults:
       posttype_name: "ページ"
       pages: true
 
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    # - repo-name
-
 webrick:
   headers:
     Neko7sora-v: v1
