@@ -73,6 +73,8 @@ plugins:
   - jekyll-avatar
   - jekyll-gist
   - jekyll-relative-links
+  - jekyll-octicons
+  - jekyll-github-metadata
 #  - jekyll-mentions
 
 #jekyll-mentions:
