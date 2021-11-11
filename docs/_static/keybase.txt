@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/neko7sora
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://neko7sora.github.io
+  * I am neko7sora (https://keybase.io/neko7sora) on keybase.
+  * I have a public key with fingerprint A7AE 1F1E 0AD4 A048 9226  0DA8 6DC3 05F6 46EF 8885
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013e073e9379fb3bba714ce239e6c447151e30d80a464946151807f71a5fd4db450a",
+      "fingerprint": "a7ae1f1e0ad4a04892260da86dc305f646ef8885",
+      "host": "keybase.io",
+      "key_id": "6dc305f646ef8885",
+      "kid": "01013e073e9379fb3bba714ce239e6c447151e30d80a464946151807f71a5fd4db450a",
+      "uid": "f694ededa9537aa80dcaeedea5df2419",
+      "username": "neko7sora"
+    },
+    "service": {
+      "hostname": "neko7sora.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1636640053,
+  "expire_in": 157680000,
+  "prev": "b2b964dcd9608ccecca2aee355d923b5a64e3323907ab84d7004718afab57e4e",
+  "seqno": 38,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIkAnicrVJbSBVBGD5WFhmVhJXZhdrwKbPZM7M7u8ce1KckyBKke6fZndlztlO7
+xz17vCRSL1GSQeWptIuWgVB2e+giWmESkV280A0lBcUub0EUUXSbtXqJHpuXYX6+
+75vv+/jvTh3vS0l6tHtb81BVxvykh3dOx33kQKZUKWg2rRAClUKEjV1sO2UxNxgx
+qRAQgAhEyACGTIVYNTSoaQSLSGd+qDJZRwiLksggoAogSEYqkvlbAdjAIpEMiqiG
+JECELMEwrRBzoo5puVyWYMJEQ2SAUEQAUlS/XwaUKDLVIZAMGcnMUBRF4sSwHfMY
+3JxGYizbtPmMP4Jj9v6B/8++42NyhqwiRhklqgQxIQqgOmF8QCRq+JGoesAYcyyy
+g3G0xSI2jtkOEaqyBD4uNXXmNetF+RuSHTLdcFz7lSvq2K6t29s5IOy60VjAE3Ar
+oh6jjGnB31pBzbQo75MzSpkTM21LCIgcqbumJy7KUJYRABLMElh51HRY0PQQEpYV
+wI/3DyvlkppfU2VEdarKQNF1puvEz2NBSaKqH2oSkRGDkDcGMNEURDEAvDeFGEST
+MENM8NKVWLYQgAr3SUJcM2aGLOLGHSZUdXZsmuBLSvFNTB7nLZovZXLqn/Wrujzp
+x+bVL4cvD3TkvIZNC8x5a8xi8/zJvO7MK71f+vJvLm6sdMj7uS39mTtHPywbTLbx
+qrPitWnh9mNdznPgmxut72wrPNG75+z0ePrSW5m1a5Nnb0iv27LYuhS5UJv4NAxK
+crfeK8Avcuf0rO95HG0r6voeYt0118PXBjY+M4e6dvWnvcLr2p43V7+pPx6/8dVf
+EA379gozZ6emjiwPGhl9PYtqEpPbVzbczjv35Eh3w6yDK3LOpDUOwDPVvYl9I6fK
+9icGi1vfJYO+R4dnac9aiypmtD343CKfvlge3BU+VLfk6v3R3o7WjyHYVJ4Q8gun
++GDkLa4Zzv1WdLS27+nCdfayn+YzRiY=
+=roaD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/neko7sora
+
+==================================================================
