@@ -1,3 +1,9 @@
+---
+title: keybase.txt
+permalink: /keybase.txt
+description: keybase.txt
+layout: "null"
+---
 ==================================================================
 https://keybase.io/neko7sora
 --------------------------------------------------------------------
