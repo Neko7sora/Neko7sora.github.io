@@ -63,7 +63,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-octicons
   - jekyll-github-metadata
-  - jekyll-mentions
+#  - jekyll-mentions
 
 jekyll-mentions:
   base_url: https://twitter.com
