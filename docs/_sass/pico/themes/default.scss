@@ -17,13 +17,13 @@
 // Automatically enabled if user has Dark mode enabled
 @import "default/light";
 @media only screen and (prefers-color-scheme: light) {
-  :root([data-theme="light"]) {
-    @include dark;
+  :root([data-theme="dark"]) {
+    @include light;
   }
 }
 
-// dark theme (Forced)
-// Enabled if forced with data-theme="dark"
-//[data-theme="dark"] {
-//  @include dark;
-//}
+// Light theme (Forced)
+// Enabled if forced with data-theme="light"
+[data-theme="light"] {
+  @include light;
+}

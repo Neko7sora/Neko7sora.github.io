@@ -1,5 +1,6 @@
 // Default: Light theme
-@mixin light {
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
   // Document
   color-scheme: light;
   --background-color: #{$white};
