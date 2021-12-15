@@ -268,7 +268,7 @@ kbd {
 }
 
 @media only screen and (prefers-color-scheme: light) {
-  :root([data-theme="dark"]) {
+  :root:not([data-theme=dark]) {
     color-scheme: light;
     --background-color: #fff;
     --color: #415462;
