@@ -1,5 +1,5 @@
 # Neko7sora.github.io v2 picocss
-GitHub Pagesサイトは現在gh-pagesブランチの/docsフォルダから構築されています。
+GitHub Pagesサイトは現在developブランチのdocsフォルダから構築されています。
 
 注意事項 Sassはコンパイルしてパブリッシュしてください。jekyllコンパイルだとエラーが発生します。
 
@@ -11,35 +11,35 @@ https://sass-lang.com/install
 .
 ├── _config.yml #コンフィグ
 ├── _data #データ
-|   ├── **.yml #**のデータ
-|   └── **.yml #**のデータ
-├── _drafts 
-|   ├── **.md #下書き
-|   └── **.html #下書き
+|   ├── **.yml
+|   └── **.yml
+├── _drafts #下書き
+|   ├── **.md
+|   └── **.html
 ├── _favicon #favicon
-|   ├── favicon.ico 
+|   ├── favicon.ico
 |   └── (etc...)
 ├── _includes #テンプレート
 |   ├── footer.html #フッター
 |   └── (etc...)
 ├── _layouts #レイアウトテンプレート
-|   ├── default.html 
+|   ├── default.html
 |   ├── post.html
 |   └── (etc..)
-├── _pages 
-|   ├── ** #ページ
-|   └── **
-├── _posts 
-|   ├── ** #記事
-|   └── ** #記事
-├── _sass 
+├── _pages #ページ
+|   ├── **
+|   └── (etc..)
+├── _posts #記事
+|   ├── **
+|   └── (etc..)
+├── _sass
 |   ├── **.sccs #sccs
 |   └── (etc..)
 ├── assets
 |   ├── css
 |   |    ├── **.css
 |   |    └── (etc..)
-|   ├── js 
+|   ├── js
 |   |    ├── **.js
 |   |    └── (etc..)
 |   ├── img
