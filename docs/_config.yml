@@ -1,9 +1,9 @@
 theme: minima
-title: "Neko7sora | GitHub Pages"
+title: "Neko7sora.is-a.dev"
 description: "neko7sora.github.io - GitHub Pages"
 timezone: Japan
 lang : ja
-url: "https://neko7sora.github.io" # the base hostname & protocol for your site
+url: "https://neko7sora.is-a.dev" # the base hostname & protocol for your site
 style: dark
 
 collections:
